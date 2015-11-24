@@ -16,7 +16,7 @@ make install
 ```
 
 ###Configuration:
-In `httpd.conf` (optional):
+Optional - In 'apache2.conf' (ubuntu) or `httpd.conf` (centos):
 * `DumpPostMaxSize 1024`: limit the size of a log entry to `1024` bytes (default value: `1048576` i.e. 1MB)
 * `DumpPostHeaderAdd Cookie Content-Type`:  add HTTP Header to log together with POST (default value: None)
 * `DumpPostLogFile`: specify a custom file to write the log entry (other than
